@@ -3,7 +3,7 @@
 A text-based adventure game played within the terminal.
 
 ### Gui Mockup #1
-![Start Screen]()
+![Start Screen](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventurestart.png?raw=true)
 ### Gui Mockup #2
 ![Gameplay]()
 ### Gui Mockup #3
