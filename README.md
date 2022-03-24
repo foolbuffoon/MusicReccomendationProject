@@ -5,7 +5,7 @@ A text-based adventure game played within the terminal.
 ### Gui Mockup #1
 ![Start Screen](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventurestart.png?raw=true)
 ### Gui Mockup #2
-![Gameplay]()
+![Gameplay](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventuregameplay.png?raw=true)
 ### Gui Mockup #3
 ![Endscreen]()
 ### Class Diagram
