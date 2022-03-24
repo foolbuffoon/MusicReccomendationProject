@@ -7,7 +7,7 @@ A text-based adventure game played within the terminal.
 ### Gui Mockup #2
 ![Gameplay](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventuregameplay.png?raw=true)
 ### Gui Mockup #3
-![Endscreen]()
+![Endscreen](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventureend.png?raw=true)
 ### Class Diagram
 ![Class Diagram]()
 ## Movie Reccomendation Algorithm
