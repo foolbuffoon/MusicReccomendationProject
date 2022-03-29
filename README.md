@@ -1,4 +1,4 @@
-###Group Members: Lilly Pernichele, Zack Poulson, 
+### Group Members: Lilly Pernichele, Zack Poulson, 
 ## Text-Based Adventure Game
 A text-based adventure game played within the terminal.
 
