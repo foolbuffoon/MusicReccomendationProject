@@ -1,1 +1,8 @@
-
+locName(str)
+locStart(bool)
+locEnd(bool)
+locHasMonsters(bool)
+locHasItems(bool)
+locGet(array)
+locGo(array)
+locFlavor(str)
