@@ -1,6 +1,3 @@
-import monster,Damage,health,Main Boss
-
-
 ## Monster
 setDamage(int)
 setHealth(int)
