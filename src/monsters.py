@@ -5,13 +5,13 @@ import monster,Damage,health,Main Boss
 setDamage(int)
 setHealth(int)
 setSize(int)
-healthStart(boolean)
-monsterSize(boolean)
+healthStart(bool)
+monsterSize(bool)
 
 ##Main Boss
 setDamage(int)
 sethealth(int)
 setSize(int)
-healthStart(boolean)
-monsterSize(boolean)
+healthStart(bool)
+monsterSize(bool)
 
