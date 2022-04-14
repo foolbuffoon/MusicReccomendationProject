@@ -29,5 +29,8 @@ if startinput == "":
 while gameStart == True:
     print('You begin your journey...')
     print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
+    input1 = str(input('To get up, type "get up"'))
+    if input1 == 'get up':
+        print("You have risen to your feet, and are throughly soaked in muck. It's clear you've been here for a long time")
     break
 gameStart = False
