@@ -1,10 +1,10 @@
 class Location: 
-locName = ""
-locHasMonsters = False 
-locHasItems = False 
-locGet = ["placeholder1", "placeholder2"]
-locGo = ["placeholder3", "placeholder4", "placeholder5"]
-locFlavor = ""
+    locName = ""
+    locHasMonsters = False 
+    locHasItems = False 
+    locGet = ["placeholder1", "placeholder2"]
+    locGo = ["placeholder3", "placeholder4", "placeholder5"]
+    locFlavor = ""
 
 def __init__(self):
     self.locName = "test"
