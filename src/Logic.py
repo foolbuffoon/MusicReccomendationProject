@@ -11,7 +11,6 @@ locationtest = Location()
 monstertest = Monster()
 weapontest = Weapons()
 spellstest = Spells()
-
 art_logo = (r"""
  __                               _                 _
 / _\_      ____ _ _ __ ___  _ __ | | __ _ _ __   __| |
