@@ -47,10 +47,10 @@ def endscreen():
 #func that allows the user to repeat the game
 def repeat():
     endinput = input('Play again? Y/N? ')
-    if endinput == 'Y':
+    if endinput == 'Y' or endinput == 'y':
         print('')
         main()
-    elif endinput == 'N':
+    elif endinput == 'N' or endinput == 'n':
         sys.exit()
 
 
