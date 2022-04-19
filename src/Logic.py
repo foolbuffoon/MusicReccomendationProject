@@ -19,17 +19,25 @@ _\ \\ V  V / (_| | | | | | | |_) | | (_| | | | | (_| |
 \__/ \_/\_/ \__,_|_| |_| |_| .__/|_|\__,_|_| |_|\__,_|
                            |_|
 """)
-print(art_logo)
-print("Welcome to Swampland, a text-based adventure game made by Lilly Pernichele, Zack Poulson, Liam Scott, and Nikolas Kath")
-startinput = input("Press enter to begin")
-if startinput == "":
-    gameStart = True
+def main():
+    startscreen()
+    while gameStart == True:
+        print('You begin your journey...')
+        print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
+        break
+    endscreen()
+def startscreen():
+    print(art_logo)
+    print("Welcome to Swampland, a text-based adventure game made by Lilly Pernichele, Zack Poulson, Liam Scott, and Nikolas Kath \n")
+    print('In this game, you will be given a number of choices, each with different outcomes.')
+    print('To pick a certain option, just type the choice. \n')
+def endscreen():
+    print(art_logo)
+    print('Thank you for playing Swampland!')
+    print('This game was developed by Liam Scott, Lilly Pernichele, Nikolas Kath, and Zach Poulson')
 
-while gameStart == True:
-    print('You begin your journey...')
-    print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
-    input1 = str(input('To get up, type "get up"'))
-    if input1 == 'get up':
-        print("You have risen to your feet, and are throughly soaked in muck. It's clear you've been here for a long time")
-    break
-gameStart = False
+startinput = input("Press enter to begin")
+
+if startinput == "":
+    gameStart == True
+    main()
