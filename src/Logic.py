@@ -4,6 +4,7 @@ from location import Location
 from monsters import Monster
 from spells import Spells
 from weapons import Weapons
+import sys
 gameStart = False
 # calling the class objects
 player = Character()
@@ -21,12 +22,17 @@ _\ \\ V  V / (_| | | | | | | |_) | | (_| | | | | (_| |
 """)
 #main function, contains all the gameplay and such
 def main():
+    startinput = input("Press enter to begin")
+    if startinput == "":
+        gameStart == True
     startscreen()
     while gameStart == True:
         print('You begin your journey...')
         print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
         break
-    endscreen()
+        endscreen()
+        break
+    repeat()
 #startscreen/end functions
 def startscreen():
     print(art_logo)
@@ -38,9 +44,16 @@ def endscreen():
     print('Thank you for playing Swampland!')
     print('This game was developed by Liam Scott, Lilly Pernichele, Nikolas Kath, and Zach Poulson')
 
-startinput = input("Press enter to begin")
+#func that allows the user to repeat the game
+def repeat():
+    endinput = input('Play again? Y/N? ')
+    if endinput == 'Y':
+        print('')
+        main()
+    elif endinput == 'N':
+        sys.exit()
+
+
 
 #actually calling the main function.
-if startinput == "":
-    gameStart == True
-    main()
+main()
