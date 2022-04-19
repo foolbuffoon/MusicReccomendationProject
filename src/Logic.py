@@ -19,6 +19,7 @@ _\ \\ V  V / (_| | | | | | | |_) | | (_| | | | | (_| |
 \__/ \_/\_/ \__,_|_| |_| |_| .__/|_|\__,_|_| |_|\__,_|
                            |_|
 """)
+#main function, contains all the gameplay and such
 def main():
     startscreen()
     while gameStart == True:
@@ -26,6 +27,7 @@ def main():
         print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
         break
     endscreen()
+#startscreen/end functions
 def startscreen():
     print(art_logo)
     print("Welcome to Swampland, a text-based adventure game made by Lilly Pernichele, Zack Poulson, Liam Scott, and Nikolas Kath \n")
@@ -38,6 +40,7 @@ def endscreen():
 
 startinput = input("Press enter to begin")
 
+#actually calling the main function.
 if startinput == "":
     gameStart == True
     main()
