@@ -29,9 +29,8 @@ def main():
     while gameStart == True:
         print('You begin your journey...')
         print('You awake in a swamp, with sword in your hand and no idea of who you are in your head')
-        break
         endscreen()
-        break
+        gameStart == False
     repeat()
 #startscreen/end functions
 def startscreen():
@@ -51,6 +50,7 @@ def repeat():
         print('')
         main()
     elif endinput == 'N' or endinput == 'n':
+        endscreen()
         sys.exit()
 
 
