@@ -47,7 +47,7 @@ def endscreen():
 def repeat():
     endinput = input('Play again? Y/N? ')
     if endinput == 'Y' or endinput == 'y':
-        print('')
+        print('\n')
         main()
     elif endinput == 'N' or endinput == 'n':
         endscreen()
