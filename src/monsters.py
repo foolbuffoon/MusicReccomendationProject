@@ -1,3 +1,5 @@
+##By Nikolas Kath
+
 class Monster:
     setDamage = 0
     sethealth = 0
