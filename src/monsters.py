@@ -9,4 +9,4 @@ class Monster:
         self.setDamage = 0
         self.sethealth = 0 
         self.setAttackTimer = 0
- 
+        
