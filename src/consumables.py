@@ -3,13 +3,10 @@ class Consumables:
 
 
     def __init__(self):
-        consumeType = 0
+        self.consumeType = 0
 
-    def typeSet(self):
-        consumeType = 1
-        return consumeType
-        #consumeType = 2
-        #return consumeType
-        #consumeType = 3
-        #return consumeType
-
+def healthincrease(self, self.playerHealth):
+    if self.consumeType == 1:
+        self.playerHealth += 10
+    else:
+        return self.consumeType
