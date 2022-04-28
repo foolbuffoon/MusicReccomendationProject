@@ -6,6 +6,7 @@ from location import Location
 from monsters import Monster
 from spells import Spells
 from weapons import Weapons
+from consumables import Consumables
 import sys
 
 gameStart = False
@@ -15,6 +16,8 @@ locationtest = Location()
 monstertest = Monster()
 weapontest = Weapons()
 spellstest = Spells()
+potiontest = Consumables()
+
 art_logo = r"""
  __                               _                 _
 / _\_      ____ _ _ __ ___  _ __ | | __ _ _ __   __| |
