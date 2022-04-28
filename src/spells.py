@@ -1,3 +1,4 @@
+#
 class Spells:
     spellType = 0
 

@@ -1,3 +1,4 @@
+#
 class Character:
     playerHealth = 0
     playerInventorySpace = 0

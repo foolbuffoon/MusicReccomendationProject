@@ -1,3 +1,4 @@
+#
 class Weapons:
     setDamage = 0
     setDurability = 0

@@ -1,3 +1,4 @@
+#
 class Location:
     locName = ""
     locHasMonsters = False
