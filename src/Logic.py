@@ -29,7 +29,7 @@ def healthIncrease(character, consumables):
         return character.playerHealth
 
 
-# main function, contains all the gameplay and such
+# main function, contains the gameplay
 def main():
     startinput = input("Press enter to begin")
     if startinput == "":
