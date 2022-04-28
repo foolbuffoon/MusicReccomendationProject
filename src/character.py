@@ -5,6 +5,7 @@ class Character:
     victory = False
     playerMoney = 0
     alive = True
+
     def __init__(self):
         self.playerHealth = 100
         self.playerInventorySpace = 10
