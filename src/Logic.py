@@ -27,29 +27,29 @@ _\ \\ V  V / (_| | | | | | | |_) | | (_| | | | | (_| |
 """
 # health potion function
 def health_increase(character, consumables):
-    if consumables.consumeType == 1:
-        character.playerHealth += 10
-        return character.playerHealth
+    if consumables.consume_type == 1:
+        character.player_health += 10
+        return character.player_health
 
 
 # main function, contains the gameplay
 def main():
-    startinput = input("Press enter to begin")
-    if startinput == "":
+    start_input = input("Press enter to begin")
+    if start_input == "":
         game_start == True
-    startscreen()
+    start_screen()
     while game_start == True:
         print("You begin your journey...")
         print(
             "You awake in a swamp, with sword in your hand and no idea of who you are in your head"
         )
-        endscreen()
+        end_screen()
         game_start == False
     repeat()
 
 
 # startscreen/end functions
-def startscreen():
+def start_screen():
     print(ART_LOGO)
     print(
         "Welcome to Swampland, a text-based adventure game made by Lilly Pernichele, Zack Poulson, Liam Scott, and Nikolas Kath \n"
@@ -60,7 +60,7 @@ def startscreen():
     print("To pick a certain option, just type the choice. \n")
 
 
-def endscreen():
+def end_screen():
     print(ART_LOGO)
     print("Thank you for playing Swampland!")
     print(
@@ -70,12 +70,12 @@ def endscreen():
 
 # func that allows the user to repeat the game
 def repeat():
-    endinput = input("Play again? Y/N? ")
-    if endinput == "Y" or endinput == "y":
+    end_input = input("Play again? Y/N? ")
+    if end_input == "Y" or endinput == "y":
         print("\n")
         main()
-    elif endinput == "N" or endinput == "n":
-        endscreen()
+    elif end_input == "N" or endinput == "n":
+        end_screen()
         sys.exit()
 
 
