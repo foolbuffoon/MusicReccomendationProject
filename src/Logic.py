@@ -1,6 +1,5 @@
 # potion health function, repeat function, and main function design by Lilly Pernichele
 # import overhead
-#
 from character import Character
 from location import Location
 from monsters import Monster
@@ -9,7 +8,7 @@ from weapons import Weapons
 from consumables import Consumables
 import sys
 
-gameStart = False
+game_start = False
 # calling the class objects
 player = Character()
 locationtest = Location()
@@ -18,7 +17,7 @@ weapontest = Weapons()
 spellstest = Spells()
 potiontest = Consumables()
 
-art_logo = r"""
+ART_LOGO = r"""
  __                               _                 _
 / _\_      ____ _ _ __ ___  _ __ | | __ _ _ __   __| |
 \ \\ \ /\ / / _` | '_ ` _ \| '_ \| |/ _` | '_ \ / _` |
@@ -27,7 +26,7 @@ _\ \\ V  V / (_| | | | | | | |_) | | (_| | | | | (_| |
                            |_|
 """
 # health potion function
-def healthIncrease(character, consumables):
+def health_increase(character, consumables):
     if consumables.consumeType == 1:
         character.playerHealth += 10
         return character.playerHealth
@@ -37,21 +36,21 @@ def healthIncrease(character, consumables):
 def main():
     startinput = input("Press enter to begin")
     if startinput == "":
-        gameStart == True
+        game_start == True
     startscreen()
-    while gameStart == True:
+    while game_start == True:
         print("You begin your journey...")
         print(
             "You awake in a swamp, with sword in your hand and no idea of who you are in your head"
         )
         endscreen()
-        gameStart == False
+        game_start == False
     repeat()
 
 
 # startscreen/end functions
 def startscreen():
-    print(art_logo)
+    print(ART_LOGO)
     print(
         "Welcome to Swampland, a text-based adventure game made by Lilly Pernichele, Zack Poulson, Liam Scott, and Nikolas Kath \n"
     )
@@ -62,7 +61,7 @@ def startscreen():
 
 
 def endscreen():
-    print(art_logo)
+    print(ART_LOGO)
     print("Thank you for playing Swampland!")
     print(
         "This game was developed by Liam Scott, Lilly Pernichele, Nikolas Kath, and Zach Poulson"

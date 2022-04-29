@@ -1,14 +1,9 @@
-#
 class Spells:
-    spellType = 0
+    spell_type = 0
 
     def __init__(self):
-        spellType = 0
+        spell_type = 0
 
     def typeSet(self):
-        spellType = 1
-        return spellType
-        # spellType = 2
-        # return spellType
-        # spellType = 3
-        # return spellType
+        self.spell_type = 1
+        return self.spell_type

@@ -1,13 +1,14 @@
 # by Lilly Pernichele
-#
+
+
 class Consumables:
-    consumeType = 0
+    consume_type = 0
 
     def __init__(self):
-        self.consumeType = 0
+        self.consume_type = 0
 
-    def setType(self, x):
-        self.consumeType = x
+    def set_type(self, x):
+        self.consume_type = x
 
-    def getType(self):
-        return self.consumeType
+    def get_type(self):
+        return self.consume_type

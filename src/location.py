@@ -1,25 +1,24 @@
-#
 class Location:
-    locName = ""
-    locHasMonsters = False
-    locHasItems = False
-    locGet = ["placeholder1", "placeholder2"]
-    locGo = ["placeholder3", "placeholder4", "placeholder5"]
-    locFlavor = ""
+    name = ""
+    has_monsters = False
+    has_items = False
+    get = ["placeholder1", "placeholder2"]
+    go = ["placeholder3", "placeholder4", "placeholder5"]
+    flavor = ""
 
 
 def __init__(self):
-    self.locName = "test"
-    self.locHasMonsters = True
-    self.locHasItems = True
-    self.locGet[0] = "a location"
-    self.locGet[1] = "another location"
-    self.locGo[0] = "a new place"
-    self.locGo[1] = "a different place"
-    self.locGo[2] = "a third place! wowee!"
-    self.locFlavor = "bitter, with notes of cellulose and TV static"
+    self.name = "test"
+    self.has_monsters = True
+    self.has_items = True
+    self.get[0] = "a location"
+    self.get[1] = "another location"
+    self.go[0] = "a new place"
+    self.go[1] = "a different place"
+    self.go[2] = "a third place! wowee!"
+    self.flavor = "bitter, with notes of cellulose and TV static"
 
 
-def travel(self, locGo, locGet):
+def travel(self, go, get):
 
-    return self.locName
+    return self.name
