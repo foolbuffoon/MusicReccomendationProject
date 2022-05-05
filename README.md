@@ -1,6 +1,11 @@
 ### Group Members: Lilly Pernichele, Zack Poulson, Liam Scott, Nikolas Kath
 ## Text-Based Adventure Game
-A text-based adventure game played within the terminal.
+An OOP terminal based fantasy inspired text adventure.
+The story takes place in a swamp, and our hero is tasked with defeating Slurok, a dark force exerting power over the swamp.
+
+Gameplay consists of the player being given with two or multiple choices, and the game will react based on which choice the player makes
+
+The game's combat also turn based, with three systems of player-monster interaction: Potions, Weapons and Spells.(Combat system still in development)
 
 ### Gui Mockup #1
 ![Start Screen](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventurestart.png?raw=true)
@@ -10,12 +15,4 @@ A text-based adventure game played within the terminal.
 ![Endscreen](https://github.com/foolbuffoon/T4Project/blob/main/images/textadventureend.png?raw=true)
 ### Class Diagram
 ![Class Diagram](https://github.com/foolbuffoon/T4Project/blob/main/images/Swampland.jpg)
-## Movie Reccomendation Algorithm
-A graphical program that would provide a user with a list of movies liked by people who also liked the inputted movie.
 
-### Gui Mockup #1
-![Reccomendation Screen](https://github.com/foolbuffoon/T4Project/blob/main/images/criticbot.png?raw=true)
-### Gui Mockup #2
-![Reccomendations Screen]()
-### Class Diagram
-![Class Diagram]()
